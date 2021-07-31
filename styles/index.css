@@ -2,6 +2,20 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer utilities{
+  .animation-delay-2000{
+    animation-delay:2s;
+  }
+  .animation-delay-4000{
+    animation-delay:4s;
+  }
+  /* .animation-button{
+    transform: translateY(4px);
+    animation:moveInBottom;
+    animation-timing-function: ease-in-out;
+
+  } */
+}
 @layer components{
   .btn{
     @apply shadow-md py-3 px-6 rounded-md transition duration-300
