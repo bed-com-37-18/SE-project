@@ -43,12 +43,12 @@ function Navbar()
             <li className="mr-6">
               <a href ="" className ="inline-block py-2 px-2 text-white no-underline hover:bg-gray-800">Home</a>
             </li>
-        
+
             <li className="mr-6">
               <a href ="" className ="inline-block py-2 px-2 text-white no-underline hover:bg-gray-800">Contact</a>
             </li>
             <li className="mr-6">
-              <a href ="" className ="inline-block py-2 px-2 text-white no-underline hover:bg-gray-800">Login</a>
+              <a href ="http://localhost:8000/" className ="inline-block py-2 px-2 text-white no-underline hover:bg-gray-800">Login</a>
             </li>
           </ul>
           </div>

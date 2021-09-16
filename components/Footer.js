@@ -3,13 +3,13 @@ import React from "react";
    return(
      <div>
 
- <footer className=" bg-gradient-to-r from-gray-900 via-transparent  to-gray-900  px-5 py-5  text-white dark:bg-gray-800">
+ <footer className=" bg-gray-900 opacity-70  px-5 py-5  text-white dark:bg-gray-800">
      <div className="container px-6 py-4 mx-auto">
          <div className="lg:flex">
              <div className="w-full -mx-6 lg:w-2/5">
                  <div className="px-6">
                      <div>
-                         <a href="#" className="text-xl font-bold text-gray-900 dark:text-white hover:text-gray-700 dark:hover:text-gray-300">Chanco</a>
+                         <a href="#" className="text-xl font-bold text-white dark:text-white hover:text-gray-700 dark:hover:text-gray-300">Chanco</a>
                      </div>
 
                      <p className="max-w-md mt-2 text-white dark:text-gray-400">Follow us on the below social media platforms.</p>
@@ -39,25 +39,25 @@ import React from "react";
              <div className="mt-6 lg:mt-0 lg:flex-1">
                  <div className="grid grid-cols-2 gap-6 sm:grid-cols-3 md:grid-cols-4">
                      <div>
-                         <h3 className="text-gray-900 uppercase dark:text-white">About</h3>
-                         <a href="#" className="block mt-2 text-sm text-gray-900 dark:text-gray-400 hover:underline">Company</a>
-                         <a href="#" className="block mt-2 text-sm text-gray-900 dark:text-gray-400 hover:underline">Students</a>
-                         <a href="#" className="block mt-2 text-sm text-gray-900 dark:text-gray-400 hover:underline">Careers</a>
+                         <h3 className="text-white uppercase dark:text-white">About</h3>
+                         <a href="http://localhost:8000/admin/login" className="block mt-2 text-sm text-white dark:text-gray-400 hover:underline">Admininstrator</a>
+                         <a href="http://localhost:8000/login" className="block mt-2 text-sm text-white dark:text-gray-400 hover:underline">Students</a>
+                         <a href="http://localhost:8000/log-in300" className="block mt-2 text-sm text-white dark:text-gray-400 hover:underline">Staff</a>
                      </div>
 
                      <div>
-                         <h3 className="text-gray-900 uppercase dark:text-gray-900">Blog</h3>
-                         <a href="#" className="block mt-2 text-sm text-gray-900 dark:text-gray-400 hover:underline">Newsfeed</a>
-                         <a href="#" className="block mt-2 text-sm text-gray-900 dark:text-gray-400 hover:underline">Articles</a>
-                         <a href="#" className="block mt-2 text-sm text-gray-900 dark:text-gray-400 hover:underline">Projects</a>
+                         <h3 className="text-white uppercase dark:text-gray-900">Blog</h3>
+                         <a href="#" className="block mt-2 text-sm text-white dark:text-gray-400 hover:underline">Newsfeed</a>
+                         <a href="#" className="block mt-2 text-sm text-white dark:text-gray-400 hover:underline">Articles</a>
+                         <a href="#" className="block mt-2 text-sm text-white dark:text-gray-400 hover:underline">Projects</a>
                      </div>
 
 
 
                      <div>
-                         <h3 className="text-gray-900 uppercase dark:text-white">Contact</h3>
-                         <span className="block mt-2 text-sm text-gray-900 dark:text-gray-400 hover:underline">+1 526 654 8965</span>
-                         <span className="block mt-2 text-sm text-gray-900 dark:text-gray-400 hover:underline">examp@email.com</span>
+                         <h3 className="text-white uppercase dark:text-white">Contact</h3>
+                         <span className="block mt-2 text-sm text-white dark:text-gray-400 hover:underline">+1 526 654 8965</span>
+                         <span className="block mt-2 text-sm text-white dark:text-gray-400 hover:underline">campusfm@gmail.com</span>
                      </div>
                  </div>
              </div>
@@ -67,7 +67,7 @@ import React from "react";
          </hr>
 
          <div>
-             <p className="text-center text-gray-900 dark:text-white">University of Malawi 2021 &copy; copyright All rights reserved</p>
+             <p className="text-center text-white dark:text-white">Campus facility Maintainence All rights reserved  &copy;copyright </p>
          </div>
      </div>
  </footer>

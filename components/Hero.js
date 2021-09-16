@@ -16,7 +16,7 @@ function Hero(){
 
                </div>
                 <div className="flex justify-center flex-wrap gap-6">
-                <button type="button" class="btn bg-gradient-to-r from-gray-800 via-transparent text-white to-gray-800  animate-bounce hover:bg-white ">Get Started</button>
+                <a href="http://localhost:8000/" class="btn bg-gradient-to-r from-gray-800 via-transparent text-white to-gray-800  animate-bounce hover:bg-white ">Get Started</a>
                 </div>
 </div>
 </div>

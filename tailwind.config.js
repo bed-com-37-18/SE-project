@@ -8,7 +8,7 @@ module.exports = {
   theme:{
     extend: {
         backgroundImage: (theme) => ({
-            "home-image": "url('/images/bg1.jpg')",
+            "home-image": "url('/images/bg2.jpg')",
 }),
         animation:{
               button:"button 2s infinite",
